@@ -8,8 +8,8 @@ export default function Cart() {
   const state = useSelector((state) => state.handleCart);
   const dispatch = useDispatch();
 
-  const handleclose = (pro) => {
-    dispatch(delCart(pro));
+  const handleclose = (product) => {
+    dispatch(delCart(product.id));
     console.log("alignItems");
   };
 
@@ -20,9 +20,9 @@ export default function Cart() {
           <button
             className="btn-close float-end"
             aria-label="Close"
-            onClick={() => handleclose(product)}
+            onClick={() => handleclose(product.id)}
           >
-            X
+          
           </button>
           <div className="row justify-content-center">
             <div className="col-md-4">

@@ -19,7 +19,7 @@ export default function About() {
                   <span class="mr-3">
                     <span class="icon-map"></span>
                   </span>{" "}
-                  34 Street Name, City Name Here, <br /> United States
+                  34 Street Name,Ludhiana, <br /> India
                 </li>
                 <li class="d-flex text-black mb-2">
                   <span class="mr-3">
@@ -31,7 +31,7 @@ export default function About() {
                   <span class="mr-3">
                     <span class="icon-envelope-o"></span>
                   </span>{" "}
-                  info@mywebsite.com{" "}
+                  info@e-shop.com{" "}
                 </li>
               </ul>
             </div>
@@ -83,6 +83,7 @@ export default function About() {
                     ></textarea>
                   </div>
                 </div>
+                <br/>
                 <div class="row">
                   <div class="col-md-12">
                     <input
